@@ -116,6 +116,7 @@ header {
 .links {
   text-decoration: none;
   color: #000000;
+  width: 100%;
 }
 
 .logo {
@@ -135,6 +136,15 @@ header {
   text-align: center;
   font-weight: bold;
   font-size: x-large;
+}
+
+#pageLinks {
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  font-size: large;
+  margin: 35px auto;
+  padding: 10px 0;
+  width: 90%;
 }
 
 #verses {

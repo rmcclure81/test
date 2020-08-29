@@ -21,21 +21,21 @@ function timeModified() {
 function getDescription() {
   //** Variable declarations **/
   var home = '/html/index.html';
-  var art = '../xml_data_files/art.xml',
-    artHTML = '/em228-ip/html/art2.html',
-    artXSL = '/em228-ip/xml_data_files/art2.xml';
-  var family = '../xml_data_files/family.xml',
-    familyHTML = '/em228-ip/html/family.html',
-    familyXSL = '/em228-ip/xsl_files/family.xslt';
-  var movies = '../xml_data_files/movies.xml',
-    moviesHTML = '/em228-ip/html/movies.html',
-    moviesXSL = '/em228-ip/xsl_files/movies.xslt';
-  var music = '../xml_data_files/music.xml',
-    musicHTML = '/em228-ip/html/music.html',
-    musicXSL = '/em228-ip/xsl_files/music.xslt';
-  var verses = '../xml_data_files/verses.xml',
-    versesHTML = '/em228-ip/html/verses.html',
-    versesXSL = '/em228-ip/xsl_files/verses.xslt';
+  var art = '../xml_data_files/art-plain.xml',
+    artHTML = '',
+    artXSL = '/xml_data_files/art.xml';
+  var family = '../xml_data_files/family-plain.xml',
+    familyHTML = '',
+    familyXSL = '/xml_data_files/family.xml';
+  var movies = '../xml_data_files/movies-plain.xml',
+    moviesHTML = '',
+    moviesXSL = '/xml_data_files/movies.xml';
+  var music = '../xml_data_files/music-plain.xml',
+    musicHTML = '',
+    musicXSL = '/xml_data_files/music.xml';
+  var verses = '../xml_data_files/verses-plain.xml',
+    versesHTML = '',
+    versesXSL = '/xml_data_files/verses.xml';
 
   if (window.location.pathname != home) {
     //** Creating the XMLHttpRequest Object **/
@@ -92,12 +92,12 @@ function getDescription() {
 
     var newSpan = document.createElement('span');
     var allDiv = document.getElementsByTagName('div');
-    var eleventhDiv = allDiv[11];
+    var thirteenthDiv = allDiv[14];
 
     newSpan.setAttribute('id', 'description');
     newSpan.innerHTML = desc;
 
-    eleventhDiv.appendChild(newSpan);
+    thirteenthDiv.appendChild(newSpan);
   } else {
     if (window.innerWidth <= 1200) {
       alert(

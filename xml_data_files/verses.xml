@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet href="../xsl_files/verses.xslt" type="text/xsl" ?>
+<?xml-stylesheet href="/test/xsl_files/verses.xslt" type="text/xsl" ?>
 
 <verseList>
     <description>BIBLE VERSES</description>
