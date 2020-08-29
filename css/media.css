@@ -1,42 +1,35 @@
 @media screen and (max-width: 1200px) {
-  body {
-    background-color: greenyellow;
-    color: #ffffff;
-    margin: 0;
-    overflow-x: hidden;
-    padding: 0;
-  }
-
-  .btn_dropdown_toggle {
+  /* .btn_dropdown_toggle {
     padding: 5px;
     background-color: #d3d3d3;
     font-weight: bold;
     color: #000000;
     border: none;
     font-size: medium;
-  }
+  } */
 
-  .caret {
+  /* .caret {
     font-size: small;
-  }
+  } */
 
-  .container {
+  /* .container {
     min-height: 100vh;
     position: relative;
-  }
+  } */
 
-  .content-wrap {
+  /* .content-wrap {
     padding-bottom: 2.5rem;
-  }
+  } */
 
-  .dropdown:hover .dropdownContent {
+  /* .dropdown:hover .dropdownContent {
     display: block;
-  }
+  } */
 
   .dropdownContent {
     display: none;
-    position: absolute;
+    position: relative;
     min-width: 160px;
+    /* max-width: min-content; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -88,9 +81,10 @@
 
   #home {
     background-color: #d3d3d3;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px;
     display: block;
-    grid-column: 1;
+    /* grid-column: 1; */
+    width: 100%;
   }
 
   .links {
@@ -99,16 +93,15 @@
   }
 
   .logo {
-    display: inline;
+    display: none;
     margin-right: 3rem;
-    /* margin-left: -9rem; */
     border-radius: 25%;
   }
 
   .navbar {
     background-color: #d3d3d3;
     border-radius: 0 0 25px 25px;
-    display: grid;
+    display: block;
     padding: 10px 0;
     width: 90%;
     margin: 0 auto 1.5rem auto;
@@ -122,28 +115,33 @@
   }
 
   #w1 {
-    grid-column: 2;
+    /* grid-column: 2; */
     background-color: #d3d3d3;
+    width: 100%;
   }
 
   #w2 {
-    grid-column: 3;
+    /* grid-column: 3; */
     background-color: #d3d3d3;
+    width: 100%;
   }
 
   #w3 {
-    grid-column: 4;
+    /* grid-column: 4; */
     background-color: #d3d3d3;
+    width: 100%;
   }
 
   #w4 {
-    grid-column: 5;
+    /* grid-column: 5; */
     background-color: #d3d3d3;
+    width: 100%;
   }
 
   #w5 {
-    grid-column: 6;
+    /* grid-column: 6; */
     background-color: #d3d3d3;
     border-radius: 0 0 25px 25px;
+    width: 100%;
   }
 }
