@@ -99,6 +99,14 @@ function getDescription() {
 
     eleventhDiv.appendChild(newSpan);
   } else {
-    alert('New Updates:\n   - Responsive design for smaller screens.');
+    if ($(window).width() >= 1200) {
+      alert(
+        'New Updates:\n\nResponsive Design for Smaller Screens.\n\nRemoved Footer for Smaller Screens.'
+      );
+    } else {
+      alert(
+        'New Updates:\n   - Responsive Design for Smaller Screens.\n   - Removed Footer for Smaller Screens.'
+      );
+    }
   }
 }
