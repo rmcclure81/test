@@ -98,7 +98,7 @@ function getDescription() {
     newSpan.innerHTML = desc;
 
     eleventhDiv.appendChild(newSpan);
-    // } else {
-    //   alert('This is the homepage');
+  } else {
+    alert('New Updates:\n   - Responsive design for smaller screens.');
   }
 }
