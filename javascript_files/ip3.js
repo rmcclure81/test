@@ -20,22 +20,22 @@ function timeModified() {
 
 function getDescription() {
   //** Variable declarations **/
-  var home = '/html/index.html';
-  var art = '../xml_data_files/art-plain.xml',
+  var home = '/test/html/index.html';
+  var art = '/test/xml_data_files/art-plain.xml',
     artHTML = '',
-    artXSL = '/xml_data_files/art.xml';
-  var family = '../xml_data_files/family-plain.xml',
+    artXSL = '/test/xml_data_files/art.xml';
+  var family = '/test/xml_data_files/family-plain.xml',
     familyHTML = '',
-    familyXSL = '/xml_data_files/family.xml';
-  var movies = '../xml_data_files/movies-plain.xml',
+    familyXSL = '/test/xml_data_files/family.xml';
+  var movies = '/test/xml_data_files/movies-plain.xml',
     moviesHTML = '',
-    moviesXSL = '/xml_data_files/movies.xml';
-  var music = '../xml_data_files/music-plain.xml',
+    moviesXSL = '/test/xml_data_files/movies.xml';
+  var music = '/test/xml_data_files/music-plain.xml',
     musicHTML = '',
-    musicXSL = '/xml_data_files/music.xml';
-  var verses = '../xml_data_files/verses-plain.xml',
+    musicXSL = '/test/xml_data_files/music.xml';
+  var verses = '/test/xml_data_files/verses-plain.xml',
     versesHTML = '',
-    versesXSL = '/xml_data_files/verses.xml';
+    versesXSL = '/test/xml_data_files/verses.xml';
 
   if (window.location.pathname != home) {
     //** Creating the XMLHttpRequest Object **/
