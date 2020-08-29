@@ -25,6 +25,10 @@
     display: block;
   } */
 
+  .descriptionContainer {
+    min-height: 500px;
+  }
+
   .dropdownContent {
     display: none;
     position: relative;
@@ -38,18 +42,7 @@
   }
 
   footer {
-    background-color: #d3d3d3;
-    border-radius: 25px 25px 0 0;
-    bottom: 0;
-    color: #000000;
-    /* display: flex; */
-    height: 2.5rem;
-    left: 0;
-    margin: auto;
-    padding: 10px 0;
-    position: absolute;
-    right: 0;
-    width: 90%;
+    display: none;
   }
 
   /* .footerContent {
