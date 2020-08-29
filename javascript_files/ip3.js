@@ -20,7 +20,7 @@ function timeModified() {
 
 function getDescription() {
   //** Variable declarations **/
-  var home = '/test/html/index.html';
+  var home = '/html/index.html';
   var art = '../xml_data_files/art.xml',
     artHTML = '/em228-ip/html/art2.html',
     artXSL = '/em228-ip/xml_data_files/art2.xml';
@@ -99,9 +99,9 @@ function getDescription() {
 
     eleventhDiv.appendChild(newSpan);
   } else {
-    if ($(window).width() >= 1200) {
+    if (window.innerWidth <= 1200) {
       alert(
-        'New Updates:\n\nResponsive Design for Smaller Screens.\n\nRemoved Footer for Smaller Screens.'
+        'New Updates:\nResponsive Design for Smaller Screens.\nRemoved Footer for Smaller Screens.'
       );
     } else {
       alert(
