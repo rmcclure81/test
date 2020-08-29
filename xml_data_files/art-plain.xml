@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet href="../xsl_files/art.xslt" type="text/xsl" ?>
 
 <gallery>
-    <description>MY DAUGHTER'S ARTWORK</description>
+    <description>Art Collection</description>
     <art id="1">
         <image file="../images/Netherlands.jpeg" />
         <orientation>l</orientation>

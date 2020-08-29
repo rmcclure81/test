@@ -6,16 +6,16 @@ function runScript() {
 }
 
 function printTitle() {
-  document.getElementsByClassName('headingTitle').innerHTML = document.title;
+  document.getElementById('headingTitle').innerHTML = document.title;
 }
 
 function getAddress() {
-  document.getElementsByClassName('address').innerHTML = document.URL;
+  document.getElementById('address').innerHTML = document.URL;
 }
 
 function timeModified() {
   var x = String(new Date(document.lastModified));
-  document.getElementsByClassName('modified').innerHTML = x.substring(0, 21);
+  document.getElementById('modified').innerHTML = x.substring(0, 21);
 }
 
 function getDescription() {

@@ -4,6 +4,7 @@
   <head>
     <title>My Collections</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/media.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico" />
     <script type="text/javascript" src="../javascript_files/ip3.js"></script>
@@ -15,25 +16,22 @@
         <header>
           <div class="heading">
             <img src="../images/favicon.ico" alt="logo" class="logo" />
-            <span class="headingTitle">
-              <!-- <script>
-                function pathName() {
-                  alert(window.location.pathname);
-                }
-              </script> -->
-            </span>
+            <span id="headingTitle"></span>
           </div>
         </header>
+        <nav class="navbar">
+          <script src="../javascript_files/nav.js"></script>
+        </nav>
         <main></main>
       </div>
       <footer align="center">
         <div class="footerContent">
           <span>URL: </span>
-          <span class="address"></span>
+          <span id="address"></span>
         </div>
         <div class="footerContent">
           <span>Last Modified: </span>
-          <span class="modified"></span>
+          <span id="modified"></span>
         </div>
       </footer>
     </div>

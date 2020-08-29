@@ -13,7 +13,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #1 (XML Files) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #1<br /> (XML Files) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
@@ -45,7 +45,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #2 (XSLT Files) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #2<br /> (XSLT Files) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
@@ -77,7 +77,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #3 (JavaScript Files) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #3<br /> (JavaScript Files) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
@@ -99,7 +99,7 @@ document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #4 (JavaScript DOM Scripts) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #4<br /> (JavaScript DOM Scripts) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
@@ -115,32 +115,24 @@ document.write('');
 document.write('</div>');
 document.write('</div>');
 
-//** Week 5 **//
+//** Week 5 - Still Need **//
 document.write('<div class="dropdown" id="w5">');
 document.write(
   '<button class="btn_dropdown_toggle" type="button" data-toggle="dropdown">'
 );
 document.write(
-  '<span>Week #5 (AJAX Scripting) &nbsp;<span class="caret">▼</span></span>'
+  '<span>Week #5<br /> (AJAX Scripting) &nbsp;<span class="caret">▼</span></span>'
 );
 document.write('</button>');
 document.write('<div class="dropdownContent">');
-document.write('<a href="../html/art.html" class="links">Art Collection</a>');
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="../html/verses.html" class="links">Bible Verse Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="../html/family.html" class="links">Family Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="../html/movies.html" class="links">Movie Collection</a>'
-);
+document.write('');
 document.write('<br /><br />');
-document.write(
-  '<a href="../html/music.html" class="links">Music Collection</a>'
-);
+document.write('');
 document.write('</div>');
 document.write('</div>');
