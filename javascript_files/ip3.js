@@ -20,7 +20,7 @@ function timeModified() {
 
 function getDescription() {
   //** Variable declarations **/
-  var home = '/html/index.html';
+  var home = '/test/html/index.html';
   var art = '../xml_data_files/art.xml',
     artHTML = '/em228-ip/html/art2.html',
     artXSL = '/em228-ip/xml_data_files/art2.xml';
